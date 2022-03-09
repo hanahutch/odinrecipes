@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Odin Recipes</title>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/849c3de797.js" crossorigin="anonymous"></script>
+  
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+  <!-- fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Serif&display=swap" rel="stylesheet">
+  <!-- CSS stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .background {
+      background-image: url('table.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+
+<body class="homepage">
+  <div class="background">
+    <section id="title">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recipes">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="title-container">
+
+        <h1 class="big-heading">Odin Recipes</h1> <img class="head-icon" src="restaurant.png" alt="icon">
+        <h5 class="under-head">Your one stop shop for all things delicious. Click below to download our app to keep up
+          with all things culinary. </h5>
+        <button type="button" class="btn btn-dark btn-lg dowload-button"><i class="fa-brands fa-apple"></i>
+          Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i>
+          Download</button>
+
+
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <!-- Pricing -->
+
+  <section id="recipes">
+
+    <h2 class="price-title">Check out our featured seasonal recipes for this month</h2>
+    <img class="line-icon" src="line.png" alt="line">
+    <div class="container">
+
+      <div class="card-group">
+        <div class="card">
+          <img src="frenchtoast.jpeg" alt="frenchtoast" class="card-image">
+          <div class="card-content">
+            <h4>Homestyle French Toast</h4>
+            <p>This French toast recipe is different because it uses flour. A breakfast classic! Read on below if you
+              too would like to create this
+              delicious breakfast dish.</p>
+          </div>
+
+          <div class="card-bottom">
+            <div>
+              <i class="fa-solid fa-thumbs-up"></i> 310
+            </div>
+            <div>
+              <a href="./frenchtoast.html" class="bottom-link">View Recipe</a>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="card">
+          <img src="lasagna.jpeg" alt="lasagna" class="card-image">
+          <div class="card-content">
+            <h4>Classic Lasagna</h4>
+            <p>This French toast recipe is different because it uses flour. A breakfast classic! Read on below if you
+              too would like to create this
+              delicious breakfast dish.</p>
+          </div>
+
+          <div class="card-bottom">
+            <div>
+              <i class="fa-solid fa-thumbs-up"></i> 521
+            </div>
+            <div>
+              <a href="./lasagna.html" class="bottom-link">View Recipe</a>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="card">
+          <img src="cinnamon.jpeg" alt="coffee cake" class="card-image">
+          <div class="card-content">
+            <h4>Cinnamon Roll Swirl Coffee Cake</h4>
+            <p>This French toast recipe is different because it uses flour. A breakfast classic! Read on below if you
+              too would like to create this
+              delicious breakfast dish.</p>
+          </div>
+
+          <div class="card-bottom">
+            <div>
+              <i class="fa-solid fa-thumbs-up"></i> 456
+            </div>
+            <div>
+              <a href="./cinnamon.html" class="bottom-link">View Recipe</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="h3cta">Find out the latest delicious recipes and join our communinty.</h3>
+    <div class="btn-cta-center">
+      <button type="button" class="btn-cta btn-dark btn-lg dowload-button"><i
+          class="fa-brands fa-apple"></i>Download</button>
+      <button type="button" class="btn-cta btn-light btn-lg"><i class="fa-brands fa-google-play"></i>Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="social-icon fa-brands fa-twitter"></i>
+    <i class="social-icon fa-brands fa-facebook-f"></i>
+    <i class="social-icon fa-brands fa-instagram"></i>
+    <i class="social-icon fa-solid fa-envelope"></i>
+    <p>© Copyright Odin Recipes</p>
+
+  </footer>
+
+
+</body>
+
+</html>

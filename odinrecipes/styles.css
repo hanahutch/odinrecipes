@@ -1,0 +1,365 @@
+*{
+  box-sizing: border-box;}
+
+.homepage {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto Serif', sans-serif;
+  color: white;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.head-icon {
+  margin-bottom: 30px;
+  height: 60px;
+}
+
+.under-head {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+
+}
+
+h2 {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#title {
+  color: white;
+  padding-bottom: 200px;
+}
+
+.title-container {
+  background-color: #ffc286e0;
+  padding-top: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+/* Navigation bar */
+.navbar>.container-fluid {
+  background-color: #66806A;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight: lighter;
+}
+
+/* Buttons */
+.dowload-button {
+  margin: 5% 3% 5% 0;
+}
+
+.col-lg-6 {
+  transform: rotate(15deg);
+  padding-bottom: 10px;
+}
+
+
+/* Pricing*/
+.price-title {
+  margin: auto;
+}
+
+.line-icon {
+  height: 20px;
+}
+
+#recipes {
+  margin: 150px 100px 200px 100px;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.card-group {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 40px;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.card-bottom {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  font-size: 0.8em;
+  border-bottom: 2px solid #cccccc;
+  color: #555;
+}
+
+.bottom-link {
+  color: #64968c;
+  text-decoration: none;
+}
+
+.bottom-link :hover {
+  text-decoration: underline;
+}
+
+
+/* Testimonials*/
+#testimonials {
+  padding: 100px;
+  background-color: #90AACB;
+}
+
+.carousel-item {
+  height: 600px;
+overflow: hidden;
+width: 100%;
+}
+
+.slide-image {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.slide-cap {
+  background-color: rgba(0, 0, 0, 0.699);
+  border-radius: 10px;
+
+}
+
+
+/* Call to Action */
+#cta {
+  background-color: #B4C6A6;
+  color: white;
+  padding: 7% 15%;
+}
+
+.h3cta {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.btn-cta-center {
+  margin: 50px;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  padding: 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+
+/* FRENCH TOAST PAGE */
+
+/* main page */
+.fthome{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+}
+.ft-head{
+  color: black;
+  text-align: left;
+margin-left: 130px;
+margin-right: 50px;}
+.icons{
+  padding-bottom: 10px;
+  margin-left: 70%;
+}
+
+.line-border {
+  border: 1px dashed #000; 
+  width: 90%; 
+  margin: auto; 
+  margin-bottom: 5%;
+}
+
+.subtitle-par{
+  font-family: 'Roboto Serif', sans-serif;
+  margin: auto;
+  text-align: left;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 70px;
+}
+
+.profile-name{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.head-content article{
+line-height: 2;
+background-color: rgb(233, 233, 233);
+border-radius: 5px;
+height: 140px;
+  width: 320px;
+  padding: 10px;
+  text-align: left 
+}
+
+/* pre-info/ icons/ socials */
+.head-table-flex{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.profile-pic{
+  padding-right: 5px;
+  height: 100px; 
+}
+
+
+.user-publish{
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+}
+.profile-text{
+  padding-left: 8px;
+  font-family: 'Montserrat', sans-serif !important
+
+}
+.name{
+  text-decoration: underline;
+  font-weight: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.publish-sub{
+  color: rgb(106, 106, 106);
+}
+
+
+.head-table {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #282828;
+  border-radius: 5px;
+  border-radius: 5px;
+  background-color: #e8e8e8cc;
+    padding: 10px;
+}
+
+
+
+
+/* main pictures */
+.main-img{
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  border-style: groove;
+    border-block-width: 7px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+}
+.head-picture{
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.line-icon-page{ 
+padding-bottom: 50px;
+margin-left: auto;
+width: 100px;
+}
+  
+/* main recipe info */
+.main-content{
+  text-align: left;
+  padding: 30px;
+  padding-top: 50px;
+}
+.page-titles{
+  font-family: 'Roboto Serif', sans-serif;
+  margin-left: 9%;
+}
+
+.ingredients-list{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+ol, ul {
+  font-family: 'Montserrat', sans-serif;
+}
+.steps{
+  line-height: 3;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.footer-page{
+  background-color: #66806A;
+  height: 90px;
+  color: white;
+}
+
+
+
+/* Lasagna Page */
+
+
+
+/* Coffee Cake Page */
